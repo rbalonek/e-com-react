@@ -4,7 +4,7 @@ class Show extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "Sean",
+      name: "Bob",
     };
   }
 

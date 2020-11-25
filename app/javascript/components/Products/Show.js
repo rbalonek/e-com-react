@@ -1,16 +1,10 @@
 import React from "react";
+import "./css/Show.css";
 
-class Show extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      name: "Bob",
-    };
-  }
-
-  render() {
-    return <div>Hi, {this.state.name}!</div>;
-  }
+export default function Show() {
+  return (
+    <div>
+      <h1 className="haay">Haaaay</h1>
+    </div>
+  );
 }
-
-export default Show;
